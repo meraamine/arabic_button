@@ -1,0 +1,46 @@
+{
+  "@@locale": "ar",
+  "pageHomeListTitle": "بعض الجمل المترجمة :",
+  "pageHomeSamplePlaceholder": " مرحبا {name}",
+  "pageHomeSamplePlaceholdersOrdered": "اسمي  {lastName}, {firstName} {lastName}",
+  "@pageHomeSamplePlaceholdersOrdered": {
+    "placeholders": {
+      "firstName": {},
+      "lastName": {}
+    }
+  },
+  "pageHomeSamplePlural": "{howMany, plural, one{Sie haben 1 Nachricht} other{لديك {howMany} رسائل}}",
+  "@pageHomeSamplePlural": {
+    "placeholders": {
+      "howMany": {
+        "type": "int"
+      }
+    }
+  },
+  "pageHomeSampleTotalAmount": "الاجمالي :   {total}",
+  "@pageHomeSampleTotalAmount": {
+    "placeholders": {
+      "total": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "symbol": "€",
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "pageHomeSampleCurrentDateTime": "التاريخ : {date} الوقت : {time}",
+  "@pageHomeSampleCurrentDateTime": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      },
+      "time": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  }
+}
